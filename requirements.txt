@@ -2,5 +2,7 @@ streamlit
 matplotlib
 urlextract
 wordcloud
+english_words
+stop_words
 pandas
 emoji
