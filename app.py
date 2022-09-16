@@ -87,7 +87,7 @@ if uploaded_file is not None:
         plt.xticks(rotation='vertical')
         st.pyplot(fig)
 
-        st.title("Daily Time Line")
+        st.title("Most Active Timing")
         hour = helper.hour_timeline(selected_user, df)
         fig, ax = plt.subplots()
         ax.bar(hour["hour"], hour['msg'], color='green')
